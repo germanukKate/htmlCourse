@@ -4,69 +4,148 @@
     <meta charset="UTF-8">
     
     <title>Ketrin_resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
- <table cellspacing="15">
-  <tr>
-   <td><img src="./im/my_photo.jpg" alt="my_photo" style="height: 400px; "/> 
-     </td>
-   <td>
-     <h1>Катерина Германюк</h1> 
- 
-    <p><em>Я засновниця проекту <strong>"Рябі коні Мощаниці"</strong></em></p> 
-  
-    <p>Я люблю коней, обожнюю кінний спорт, займаюсь конкуром</p>
-   </td>
- </tr>
-</table>
-   
-<hr>
 
+  <div class="container">
 
-   <h2>Мої соціальні мережі</h2>
-    <ul>
-     <li><a href="http://instagram.com/germanyk_kate" target="_blank"> http://instagram.com/germanyk_kate</a></li>
-     <li><a href="http://facebook.com//people/Екатерина-Германюк/100016014816730/" target="_blank"> http://facebook.com/Екатерина_Германюк</a></li>
-    </ul>
-
-<hr>
-
-  <h2>Мої хоббі</h2>
-
-   <ol>
-    <li>Верхова їзда</li>
-    <li>Волейбол</li>
-    <li>Туризм</li>
-   </ol>
-
-<hr>
-
-  <h2> Досвід роботи</h2>
-
- <table cellspacing="15">
-
-    <tr>
-        <th>Місце роботи</th>
-        <th>Посада</th>
-        <th>Рік</th>
-    </tr>
-    <tr>
-        <td>ТОВ"МАКСИМ"</td>
-        <td>Завгосп</td>
-        <td>2014-2018</td>
+    <div class="info">
+        <img src="./my_photo.jpg" alt="my_photo"   class="avatar" />  
         
-    </tr>
+        <div class="info-text"> 
+              <h1>Катерина Германюк</h1> 
+          
+              <p><em>Я засновниця проекту <strong>"Рябі коні Мощаниці"</strong></em></p> 
+            
+              <p>Я люблю коней, обожнюю кінний спорт, займаюсь конкуром</p>
 
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
- </table>
-<hr>
- <h2>Проек "Рябі коні Мощаниці"</h2>
+              <h4>Мої соціальні мережі</h4>
+              
+              <a href="http://instagram.com/germanyk_kate" target="_blank"> Instagram</a>
+              |
+              <a href="http://facebook.com//people/Екатерина-Германюк/100016014816730/" target="_blank"> Fasebook</a>
+         </div>
+    
+        </div>
 
- <a href="../horse_project/index.html" target="_blank">Подивитися проект</a>
-   
+      
+    
+
+    <div class="social">
+
+      <h2>Мої соціальні мережі</h2>
+          <ul>
+          <li><a href="http://instagram.com/germanyk_kate" target="_blank"> http://instagram.com/germanyk_kate</a></li>
+          <li><a href="http://facebook.com//people/Екатерина-Германюк/100016014816730/" target="_blank"> http://facebook.com/Екатерина_Германюк</a></li>
+          </ul>
+
+    </div>
+
+    <div class="card bg-yellow">
+
+        <h2>Мої хоббі</h2>
+
+        <ol class="list">
+          <li>Верхова їзда</li>
+          <li>Волейбол</li>
+          <li>Туризм</li>
+        </ol>
+    </div>
+    
+    <div class="card bg-green">
+
+        <h2> Досвід роботи</h2>
+
+      <table cellspacing="15" class="table">
+
+          <tr>
+              <th>Місце роботи</th>
+              <th>Посада</th>
+              <th>Рік</th>
+          </tr>
+          <tr>
+              <td>ТОВ"МАКСИМ"</td>
+              <td>Завгосп</td>
+              <td>2014-2018</td>
+              
+          </tr>
+
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+      </table>
+
+    </div>
+
+    <div class="card bg-red">
+      <h2>Проек "Рябі коні Мощаниці"</h2>
+
+      <ul class="link-list">
+        <li>
+          <a href="../horse_project/index.html" target="_blank">Подивитися проект</a>
+        </li>
+        <li>
+                <a href="./pages/toru.html"  ''>Тотору(перейти на сторінку Тору)</a>
+        </li>	
+        <li>
+                <a href="./pages/gretta.html"  ''>Ель-Гретта(перейти на сторінку Ель-Гретта)</a>
+        </li>	
+        <li>
+                <a href="./pages/aphina.html"  ''>Афіна(перейти на сторінку Афіна)</a>
+        </li>
+        <li>
+                <a href="./pages/tiba.html"  ''>Тіберія(перейти на сторінку Тіберія)</a>
+  
+        </li>
+        <li>
+                <a href="./pages/solomka.html"  ''>Соломка(перейти на сторінку Соломка)</a>
+          
+        </li>
+      </ul>
+      
+    </div>
+ 
+   <div class="contact">
+
+    <h2>Зв'язатися зі мною</h2>
+    
+    <form action="/">
+ 
+   <div class="row">   
+ 
+   <div class="form-group">
+      <label for="name">Ваше ім'я</label>
+      <input type="text" id="name" placeholder="Напишіть своє ім'я..." >
+    </div>
+      
+    <div class="form-group">
+      <label for="email">Напишіть Ваш Email</label>
+      <input type="email" id="email" placeholder="Напишіть  свій Email..." >
+    </div>
+
+  </div>
+
+    <div class="form-group">
+      <label for="name">Ваше повідомлення</label>
+      <textarea id="text" rows="2" cols="15"></textarea>
+    </div>
+      <input class="btn" type="submit" value="Відправити!" >
+    
+
+  </form>
+  </div>
+
+      <div class="position">
+        <div class="box" </div>
+      </div>
+</div>
+
+
+
+
 </body>
 </html>
